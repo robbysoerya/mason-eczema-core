@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:dartz/dartz.dart';
-import 'package:{{package_name}}/core/data/datasources/{{feature_name.snakeCase()}}_remote_data_source.dart';
+import 'package:{{package_name}}/core/data/datasources/remote/{{feature_name.snakeCase()}}_remote_data_source.dart';
 import 'package:{{package_name}}/core/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
 import 'package:{{package_name}}/core/domain/repositories/{{feature_name.snakeCase()}}_repository.dart';
 import 'package:{{package_name}}/core/services/api_service.dart';
