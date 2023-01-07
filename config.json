@@ -1,6 +1,7 @@
 {
   "feature_name": "Login",
   "package_name": "example",
+  "use_freezed": true,
   "model": {
     "username": "javiercbk",
     "favouriteInteger": 18,
