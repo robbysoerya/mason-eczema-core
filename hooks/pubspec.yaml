@@ -8,4 +8,4 @@ dependencies:
   json_to_dart:
     git: 
       url: https://github.com/robbysoerya/json_to_dart
-      ref: master
+      ref: main
