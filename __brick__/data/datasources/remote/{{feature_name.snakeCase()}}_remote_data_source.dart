@@ -1,5 +1,5 @@
-import 'package:eczema/core/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
-import 'package:eczema/core/services/api_service.dart';
+import 'package:{{package_name}}/core/domain/entities/{{feature_name.snakeCase()}}_entity.dart';
+import 'package:{{package_name}}/core/services/api_service.dart';
 
 abstract class {{feature_name.pascalCase()}}RemoteDataSource {
   Future<{{feature_name.pascalCase()}}Entity> get{{feature_name.pascalCase()}}();
