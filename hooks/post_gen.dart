@@ -18,6 +18,14 @@ void run(HookContext context) async {
     runInShell: true,
     workingDirectory: root,
   );
+  final reformatProcess = await Process.start(
+    'dart',
+    ['format', '.'],
+    runInShell: true,
+    workingDirectory: root,
+  );
   await stdout.addStream(buildRunnerProcess.stdout);
   await stderr.addStream(buildRunnerProcess.stderr);
+  await stdout.addStream(reformatProcess.stdout);
+  await stderr.addStream(reformatProcess.stderr);
 }
