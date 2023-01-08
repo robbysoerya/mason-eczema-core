@@ -17,6 +17,7 @@ void run(HookContext context) {
       entityGenerator.generateDartClasses(jsonEncode(model));
 
   if (useRequest) {
+    final model = Map<String, dynamic>.from(context.vars['request']);
     final reqModelGenerator = new ModelGenerator(
       featureName,
       false,
