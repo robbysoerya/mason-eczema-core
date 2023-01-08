@@ -2,6 +2,10 @@
   "feature_name": "Login",
   "package_name": "example",
   "use_freezed": true,
+  "use_request": true,
+  "request": {
+    "id": "id"
+  },
   "model": {
     "username": "javiercbk",
     "favouriteInteger": 18,
